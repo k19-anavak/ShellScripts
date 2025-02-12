@@ -1,6 +1,7 @@
 #!/bin/bash
 echo " enter  number to  calculate  the factorial "
-read num
+#read num
+num=$1
 fact=1
 while [ $num -gt 1 ]
 do 
